@@ -1,0 +1,93 @@
+{
+
+  "Monday": {
+    "group1-id": [
+      {
+        "message1": ["2:0", "your message text"]
+      }
+    ],
+    "group2-id": [
+      {
+        "message1": ["23:40", ""]
+      }
+    ]
+  },
+
+  "Tuesday": {
+    "group1-id": [
+      {
+        "message1": ["7:10", "your message text"]
+      }
+    ],
+    "group2-id": [
+      {
+        "message1": ["4:0", ""]
+      }
+    ]
+  },
+
+  "Wednesday": {
+    "group1-id": [
+      {
+        "message1": ["2:0", "your message text"]
+      }
+    ],
+    "group2-id": [
+      {
+        "message1": ["4:0", ""]
+      }
+    ]
+  },
+
+  "Thursday": {
+    "group1-id": [
+      {
+        "message1": ["2:0", "your message text"]
+      }
+    ],
+    "group2-id": [
+      {
+        "message1": ["4:0", ""]
+      }
+    ]
+  },
+
+  "Friday": {
+    "group1-id": [
+      {
+        "message1": ["2:0", "your message text"]
+      }
+    ],
+    "group2-id": [
+      {
+        "message1": ["4:0", ""]
+      }
+    ]
+  },
+
+  "Saturday": {
+    "group1-id": [
+      {
+        "message1": ["2:0", "your message text"]
+      }
+    ],
+    "group2-id": [
+      {
+        "message1": ["4:0", ""]
+      }
+    ]
+  },
+
+  "Sunday": {
+    "group1-id": [
+      {
+        "message1": ["2:0", "your message text"]
+      }
+    ],
+    "group2-id": [
+      {
+        "message1": ["4:0", ""]
+      }
+    ]
+  },  
+}
