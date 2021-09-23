@@ -11,14 +11,12 @@ try:
         forms = json.load(json_file)
 except json.decoder.JSONDecodeError:
     print("something with Json forms")
-    time.sleep(1000000)
 
 try:
     with open('config.json') as config_json:
         config = json.load(config_json)
-except Exception:
+except json.decoder.JSONDecodeError:
     print("something with Json config")
-    time.sleep(1000000)
 
 api_id = config["API_ID"]
 api_hash = config["API_HASH"]
@@ -38,7 +36,6 @@ def parsed_json():
     except Exception as ex:
         print(ex)
         print("First Function ")
-        time.sleep(100000)
 
 
 async def main(message_text, group_id):
@@ -71,4 +68,3 @@ while True:
     except Exception as e:
         print(e)
         print("Something wrong with main loop")
-        time.sleep(1000000)
